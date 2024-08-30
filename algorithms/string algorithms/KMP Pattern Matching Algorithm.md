@@ -54,7 +54,7 @@ int[] getLPS(String needle) {
                 lps[i] == 0;
                 i++;
             } else {
-                length = needle[length - 1];
+                length = lps[length - 1];
             }
         }
     }
