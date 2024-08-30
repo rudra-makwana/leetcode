@@ -37,7 +37,7 @@ But to save time, we need to sacrifice the space complexity. Remember saving tim
 5. If the needle exists return the index of starting in the haystack
 6. Else return -1
 
-## Calculate LPS (Longest Prefix Suffic) Array
+## Calculate LPS (Longest Prefix Suffix) Array
 
 ```java
 int[] getLPS(String needle) {
